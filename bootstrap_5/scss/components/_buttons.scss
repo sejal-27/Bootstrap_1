@@ -1,0 +1,31 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.btn-custom {
+  @include gradient;
+  color: $first;
+  padding: 0.9em 4.3em 1em 1.2em;
+  font-weight: 500;
+  position: relative;
+  border: 0.5px solid black;
+  transition: all 0.8s ease;
+  span {
+    position: absolute;
+    background-color: black;
+    height: 2.5rem;
+    width: 2.5rem;
+    top: 15%;
+    right: 5px;
+    border-radius: 50%;
+    i {
+      color: $first;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+    }
+  }
+  &:hover{
+    color:black;
+    background: rgba(241, 97, 0, 0.993);
+    
+  }
+}
