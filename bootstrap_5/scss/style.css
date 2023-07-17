@@ -12065,11 +12065,33 @@ textarea.form-control-lg {
   background: rgba(241, 97, 0, 0.993);
 }
 
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+}
+.display-2--description {
+  font-size: 2rem;
+  display: block;
+  margin-top: 1.2rem;
+  text-transform: none;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(255, 94, 0, 0.95), rgba(224, 140, 250, 0.95));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
 .navbar {
   background: linear-gradient(to right, rgba(255, 94, 0, 0.95), rgba(224, 140, 250, 0.95));
 }
 .navbar .container .navbar-brand {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 500;
 }
 
