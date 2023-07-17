@@ -1,3 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.header {
+  width: 100vw;
+  line-height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) #7c9bf0;
+}
+.header .navbar-brand {
+  color: #fff;
+  animation: music 1s linear infinite;
+  animation-direction: alternate;
+}
+.header .navbar-brand .fas {
+  font-size: 4rem;
+}
+@keyframes music {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+.header .navbar-nav {
+  padding-left: 15rem;
+}
+.header .navbar-nav .nav-item .nav-link {
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 3rem;
+}
+.header .navbar-nav .nav-item:last-child > .nav-link {
+  padding-right: 0%;
+}
+.header .nav-item:hover > .nav-link, .header .navbar-brand:hover {
+  color: #b71540;
+}
+.header .my_btn {
+  padding: 0.8rem 3.2rem;
+  background-color: #b71540;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
