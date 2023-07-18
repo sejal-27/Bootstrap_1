@@ -2,6 +2,8 @@
 
 .display-2 {
   margin-bottom: 1rem;
+  font-family: 'Frank Ruhl Libre', serif;
+  
   text-transform: capitalize;
   &--intro {
     display: inline-block;
@@ -14,7 +16,7 @@
     text-transform: none;
 
     @include media-breakpoint-up(lg) {
-      font-size: 1.5rem;
+      font-size: 2rem;
       display: inline-block;
     }
   }
@@ -22,7 +24,7 @@
 // headingline
 .heading-line::before{
   content: "";
-  width: 10rem;
+  width: 20rem;
   height: 0.1rem;
   display: block;
   background-color: orange;
@@ -31,7 +33,7 @@
 }
 .heading-line::after{
   content: "";
-  width: 2rem;
+  width: 5rem;
   height: 0.5rem;
   display: block;
   background-color: palevioletred;

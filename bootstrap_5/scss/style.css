@@ -12048,7 +12048,7 @@ textarea.form-control-lg {
   padding: 0.9em 4.3em 1em 1.2em;
   font-weight: 500;
   position: relative;
-  border: 0.5px solid black;
+  border: 0.5px solid white;
   transition: all 0.8s ease;
 }
 @media (max-width: 575.98px) {
@@ -12077,6 +12077,7 @@ textarea.form-control-lg {
 
 .display-2 {
   margin-bottom: 1rem;
+  font-family: "Frank Ruhl Libre", serif;
   text-transform: capitalize;
 }
 .display-2--intro {
@@ -12091,14 +12092,14 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .display-2--description {
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: inline-block;
   }
 }
 
 .heading-line::before {
   content: "";
-  width: 10rem;
+  width: 20rem;
   height: 0.1rem;
   display: block;
   background-color: orange;
@@ -12107,7 +12108,7 @@ textarea.form-control-lg {
 
 .heading-line::after {
   content: "";
-  width: 2rem;
+  width: 5rem;
   height: 0.5rem;
   display: block;
   background-color: palevioletred;
@@ -12116,6 +12117,38 @@ textarea.form-control-lg {
 
 .pic:hover {
   filter: drop-shadow(0.25rem 0.25rem black);
+}
+
+.faq {
+  background: linear-gradient(to right, rgba(255, 94, 0, 0.95), rgba(224, 140, 250, 0.95));
+}
+.faq .container .row h1 {
+  font-size: 1em;
+}
+@media (min-width: 768px) {
+  .faq .container .row h1 {
+    font-size: 3em;
+  }
+}
+.faq .accordion {
+  padding: 10px;
+}
+.faq .accordion .accordion-item h2 button {
+  font-weight: 600;
+  font-size: 0.85em;
+}
+.faq .accordion .accordion-item h2 button:hover {
+  color: white;
+  background-color: rgba(255, 115, 0, 0.788);
+}
+@media (max-width: 991.98px) {
+  .faq .accordion .accordion-item h2 button {
+    font-size: 0.55em;
+  }
+}
+.faq .accordion .accordion-item .bg-edit {
+  font-weight: 700;
+  background-color: rgba(231, 192, 146, 0.795);
 }
 
 .intro-section {
@@ -12155,6 +12188,7 @@ textarea.form-control-lg {
 .navbar .container .navbar-brand {
   font-size: 3em;
   font-weight: 500;
+  color: white;
 }
 
 .nav-item a {
@@ -12164,4 +12198,54 @@ textarea.form-control-lg {
 
 .menu li {
   padding: 0.5rem;
+}
+
+.photographers {
+  background: linear-gradient(to right, rgba(255, 94, 0, 0.95), rgba(224, 140, 250, 0.95));
+}
+.photographers .container .row h1 {
+  font-size: 1em;
+}
+@media (min-width: 768px) {
+  .photographers .container .row h1 {
+    font-size: 3em;
+  }
+}
+.photographers .for_wave {
+  background-color: rgb(253, 159, 81);
+}
+.photographers .card-group {
+  gap: 1rem;
+  padding: 5%;
+}
+.photographers .card-group .card {
+  border-radius: 10%;
+}
+.photographers .card-group .card img {
+  height: 50%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+  font-size: 1em;
+}
+@media (max-width: 767.98px) {
+  .photographers .card-group .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contact .container .row h1 {
+  font-size: 1em;
+}
+@media (min-width: 768px) {
+  .contact .container .row h1 {
+    font-size: 3em;
+  }
+}
+.contact .form-edit {
+  padding: 5em;
+}
+.contact .form-edit #form-text-size {
+  font-size: em;
 }/*# sourceMappingURL=style.css.map */

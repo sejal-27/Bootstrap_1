@@ -1,0 +1,43 @@
+@use "../components/mixins" as *;
+@use "../components/buttons" as *;
+@use "../custom" as *;
+
+.faq {
+  @include gradient;
+  .container {
+    .row {
+      h1 {
+        font-size: 1em;
+        @include media-breakpoint-up(md) {
+          font-size: 3em;
+        }
+      }
+    }
+  }
+  .accordion{
+    padding: 10px;
+     .accordion-item {
+
+      h2 {
+         
+        button {
+          
+          font-weight: 600;
+          font-size: 0.85em;
+          &:hover{
+            color: white;
+            background-color: rgba(255, 115, 0, 0.788);
+          }
+           @include media-breakpoint-down(lg)
+            {
+              font-size: 0.55em;
+            }
+        }
+      }
+      .bg-edit{
+            font-weight: 700;
+            background-color: rgba(231, 192, 146, 0.795);
+        }
+      }
+    }
+  }
