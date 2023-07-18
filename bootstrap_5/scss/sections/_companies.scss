@@ -1,0 +1,6 @@
+@use "../components/mixins";
+@use "../components/animations";
+
+.pic:hover{
+    filter:drop-shadow(0.25rem 0.25rem black);
+}
