@@ -1,0 +1,22 @@
+@use "../components/mixins" as *;
+@use "../components/buttons" as *;
+@use "../custom" as *;
+
+.contact {
+  .container {
+    .row {
+      h1 {
+        font-size: 1em;
+        @include media-breakpoint-up(md) {
+          font-size: 3em;
+        }
+      }
+    }
+  }
+  .form-edit {
+    padding: 5em;
+    #form-text-size {
+      font-size: em;
+    }
+  }
+}

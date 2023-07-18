@@ -1,28 +1,40 @@
-@use"../components/mixins";
-@use"../components/buttons";
+@use "../components/mixins" as *;
+@use "../components/buttons" as *;
+@use "../custom" as *;
 
-
-.photographers{
-    padding-left: 20px;
-    padding-right: 20px;
-    .container{
-        
-        .row{
-            
-            h1{
-                font-size: 3em;
-            }
-
+.photographers {
+    @include gradient;
+  .container {
+    .row {
+      h1 {
+        font-size: 1em;
+        @include media-breakpoint-up(md) {
+          font-size: 3em;
         }
+      }
     }
-}
-.card-group
-{
-    .card{
-        border-radius: 10%;
-            img{
-                border-radius: 10%;
-            
-        }
+  }
+  .for_wave{
+    background-color: rgb(253, 159, 81);
+  }
+  .card-group {
+    
+    gap: 1rem;
+    padding: 5%;
+
+    .card {
+      border-radius: 10%;
+      img {
+        height: 50%;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10%;
+        font-size: 1em;
+      }
+      @include media-breakpoint-down(md) {
+        display: flex;
+        flex-direction: column;
+      }
     }
+  }
 }
