@@ -12131,11 +12131,12 @@ textarea.form-control-lg {
   }
 }
 .faq .accordion {
-  padding: 10px;
+  padding: 1em;
 }
 .faq .accordion .accordion-item h2 button {
+  padding: auto;
   font-weight: 600;
-  font-size: 0.85em;
+  font-size: 0.5em;
 }
 .faq .accordion .accordion-item h2 button:hover {
   color: white;
@@ -12247,5 +12248,6 @@ textarea.form-control-lg {
   padding: 5em;
 }
 .contact .form-edit #form-text-size {
-  font-size: em;
+  padding: 0.5em;
+  font-size: 1.5em;
 }/*# sourceMappingURL=style.css.map */
