@@ -1,0 +1,28 @@
+@use"../components/mixins";
+@use"../components/buttons";
+
+
+.photographers{
+    padding-left: 20px;
+    padding-right: 20px;
+    .container{
+        
+        .row{
+            
+            h1{
+                font-size: 3em;
+            }
+
+        }
+    }
+}
+.card-group
+{
+    .card{
+        border-radius: 10%;
+            img{
+                border-radius: 10%;
+            
+        }
+    }
+}

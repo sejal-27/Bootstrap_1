@@ -12164,4 +12164,19 @@ textarea.form-control-lg {
 
 .menu li {
   padding: 0.5rem;
+}
+
+.photographers {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.photographers .container .row h1 {
+  font-size: 3em;
+}
+
+.card-group .card {
+  border-radius: 10%;
+}
+.card-group .card img {
+  border-radius: 10%;
 }/*# sourceMappingURL=style.css.map */
