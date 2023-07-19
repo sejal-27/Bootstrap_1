@@ -12237,10 +12237,10 @@ textarea.form-control-lg {
 }
 @media (max-width: 991.98px) {
   .photographers .card-group .card .card-body {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
-.photographers .card-group .card .card-body card-title {
+.photographers .card-group .card .card-body .card-title {
   text-transform: uppercase;
 }
 

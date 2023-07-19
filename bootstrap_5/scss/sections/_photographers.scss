@@ -37,9 +37,9 @@
       .card-body {
         @include media-breakpoint-down(lg)
         {
-          font-size: 1em;
+          font-size: 1.5em;
         }
-        card-title {
+        .card-title {
           text-transform: uppercase;
           
         }
