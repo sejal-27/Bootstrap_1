@@ -13,6 +13,7 @@
   }
 }
 .nav-item {
+ 
   a {
     color: $first;
     font-size: 1.25em;
@@ -23,4 +24,14 @@
   li {
     padding: 0.5rem;
   }
+}
+.dropdown{
+  
+  .dropdown-menu{
+    
+    margin-right: 40px;
+  h6{
+    background-color: rgba(216, 112, 147, 0.397);
+  }
+}
 }

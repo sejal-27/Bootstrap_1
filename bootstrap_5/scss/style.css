@@ -12201,6 +12201,13 @@ textarea.form-control-lg {
   padding: 0.5rem;
 }
 
+.dropdown .dropdown-menu {
+  margin-right: 40px;
+}
+.dropdown .dropdown-menu h6 {
+  background-color: rgba(216, 112, 147, 0.397);
+}
+
 .photographers {
   background: linear-gradient(to right, rgba(255, 94, 0, 0.95), rgba(224, 140, 250, 0.95));
 }
@@ -12254,6 +12261,8 @@ textarea.form-control-lg {
 }
 .contact .form-edit {
   padding: 5em;
+  display: flex;
+  flex-direction: column;
 }
 .contact .form-edit #form-text-size {
   padding: 0.5em;
