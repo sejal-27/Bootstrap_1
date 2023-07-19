@@ -12235,6 +12235,14 @@ textarea.form-control-lg {
     flex-direction: column;
   }
 }
+@media (max-width: 991.98px) {
+  .photographers .card-group .card .card-body {
+    font-size: 1em;
+  }
+}
+.photographers .card-group .card .card-body card-title {
+  text-transform: uppercase;
+}
 
 .contact .container .row h1 {
   font-size: 1em;
