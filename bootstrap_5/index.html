@@ -7,9 +7,12 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -56,6 +59,87 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i
+                    class="fa-solid fa-envelope fa-2x"
+                    style="color: #fdfcfc"
+                  ></i>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-lg-start mt-2"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <li>
+                    <h6 class="dropdown-header">Alerts Center</h6>
+                    </li>
+                    <li>
+                    <a class="dropdown-item d-flex align-items-center" href="#">
+                      <div class="mr-3">
+                        <i
+                          class="fa-solid fa-envelope"
+                          style="color: #000000"
+                        ></i>
+                      </div>
+                      <div>
+                        <div class="text-gray-500">December 12, 2019</div>
+                        <span class="text-wrap">A new monthly report is ready to download!</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center" href="#">
+                      <div class="mr-3">
+                        <i
+                          class="fa-solid fa-envelope"
+                          style="color: #000000"
+                        ></i>
+                      </div>
+                      <div>
+                        <div class="small text-gray-500">December 7, 2019</div>
+                        <span class="text-wrap"
+                          >$290.29 has been deposited into your account!</span
+                        >
+                      </div>
+                    </a>
+                  </li>
+                  <li> <a class="dropdown-item d-flex align-items-center" href="#">
+                      <div class="mr-3">
+                        <i
+                          class="fa-solid fa-envelope"
+                          style="color: #000000"
+                        ></i>
+                      </div>
+                      <div>
+                        <div class="text-gray-500">December 12, 2019</div>
+                        <span class="text-wrap">A new monthly report is ready to download!</span>
+                      </div>
+                    </a></li>
+                  <li>
+                     <a class="dropdown-item d-flex align-items-center" href="#">
+                      <div class="mr-3">
+                        <i
+                          class="fa-solid fa-envelope"
+                          style="color: #000000"
+                        ></i>
+                      </div>
+                      <div>
+                        <div class="text-gray-500">December 12, 2019</div>
+                        <span class="text-wrap">A new monthly report is ready to download!</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
           <button type="button" class="rounded-pill btn-custom">
@@ -381,6 +465,59 @@
             id="exampleFormControlTextarea1"
             rows="3"
           ></textarea>
+        </div>
+
+        <!-- form+button-trigger-modal -->
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary btn-custom"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+        >
+          SUBMIT
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">
+                  Confirmation
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Do you agree to recieve promotional alerts from us?
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-bs-dismiss="modal"
+                >
+                  No, maybe later
+                </button>
+                <button type="button" class="btn btn-custom">
+                  Yes! why not
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
