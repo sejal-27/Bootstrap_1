@@ -12202,10 +12202,20 @@ textarea.form-control-lg {
 }
 
 .dropdown .dropdown-menu {
-  margin-right: 40px;
+  font-size: 0.85rem;
 }
-.dropdown .dropdown-menu h6 {
+.dropdown .dropdown-menu i {
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+.dropdown .dropdown-menu .dropdown-header {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
   background-color: rgba(216, 112, 147, 0.397);
+}
+.dropdown .dropdown-menu li:hover {
+  background-color: rgba(255, 135, 92, 0.356);
 }
 
 .photographers {
